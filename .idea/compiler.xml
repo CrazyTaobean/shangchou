@@ -6,7 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="shangchou" />
+        <module name="atcrowdfunding05-common-util" />
+        <module name="atcrowdfunding03-admin-component" />
+        <module name="atcrowdfunding06-common-reverse" />
+        <module name="atcrowdfunding02-admin-webui" />
+        <module name="atcrowdfunding04-admin-entity" />
+        <module name="atcrowdfunding07-member-parent" />
       </profile>
     </annotationProcessing>
   </component>

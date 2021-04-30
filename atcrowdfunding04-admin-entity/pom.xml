@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <parent>
+    <artifactId>atcrowdfunding01-admin-parent</artifactId>
+    <groupId>com.daobin.crowd</groupId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.daobin.crowd</groupId>
-  <artifactId>atcrowdfunding01-admin-parent</artifactId>
-  <version>1.0-SNAPSHOT</version>
-  <modules>
-    <module>atcrowdfunding02-admin-webui</module>
-    <module>atcrowdfunding03-admin-component</module>
-    <module>atcrowdfunding04-admin-entity</module>
-  </modules>
-  <packaging>pom</packaging>
+  <artifactId>atcrowdfunding04-admin-entity</artifactId>
+  <packaging>war</packaging>
 
-  <name>atcrowdfunding01-admin-parent Maven Webapp</name>
+  <name>atcrowdfunding04-admin-entity Maven Webapp</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -34,7 +32,7 @@
   </dependencies>
 
   <build>
-    <finalName>atcrowdfunding01-admin-parent</finalName>
+    <finalName>atcrowdfunding04-admin-entity</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <plugin>
